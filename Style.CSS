@@ -106,4 +106,20 @@ button {
   flex: 1;
   background-color: rgb(180, 180, 180);
   height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 {
+  height: 450px;
+}
+
+.section2wrap {
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: ;
 }
