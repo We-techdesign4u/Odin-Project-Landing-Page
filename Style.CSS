@@ -41,6 +41,12 @@ nav {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: 300;
+  border-bottom: ;
+}
+
+.navigations a:hover {
+  border-bottom: #f9faf8 solid 2px;
+  padding-bottom: 5px;
 }
 
 header {
@@ -78,7 +84,7 @@ h1 {
   margin: 0px;
 }
 
-p {
+.textandbutton p {
   line-height: 22px;
   padding: 0px;
   margin: 10px 0px;
@@ -87,7 +93,7 @@ p {
   padding-right: 70px;
 }
 
-button {
+.button {
   width: 120px;
   height: 40px;
   margin: 10px 0px;
@@ -98,6 +104,9 @@ button {
   border-color: none;
   border-width: 0px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgcontainer {
@@ -128,6 +137,7 @@ button {
 h2 {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 70px;
 }
 
 .illusandsubtext {
@@ -142,7 +152,7 @@ h2 {
 .eachillus {
   display: flex;
   flex-direction: column;
-  width: 170px;
+  width: 160px;
   align-items: center;
   justify-content: center;
   /* background-color: chartreuse; */
@@ -156,22 +166,16 @@ h2 {
   border-width: 4px;
   border-style: solid;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   /* background-color: brown; */
 }
 
-.illustext {
-  display: flex;
-  flex-direction: row;
-  /* background-color: blue; */
-  justify-content: center;
-}
-
 .illustext p {
+  display: flex;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
   font-weight: 500;
+  color: #5c5c5c;
+  margin-top: 10px;
 }
 
 .quotewrap {
@@ -188,7 +192,7 @@ h2 {
   width: 800px;
   margin: 0px;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 45px;
   font-style: oblique;
   font-weight: 300;
 }
@@ -200,4 +204,60 @@ span {
   font-weight: 900;
   font-size: 25px;
   margin-top: 20px;
+}
+
+.signupsection {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupwrap {
+  height: 140px;
+  width: 1050px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signuptext {
+  margin-left: 100px;
+}
+
+.signuptext h3,
+.signuptext p {
+  line-height: 5px;
+  color: #f9faf8;
+}
+
+.signupbutton {
+  display: flex;
+  margin-right: 100px;
+}
+
+.signupbutton a {
+  width: 130px;
+  height: 30px;
+  border-color: #f9faf8;
+  border-style: solid;
+  border-radius: 5px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 80px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 300;
 }
